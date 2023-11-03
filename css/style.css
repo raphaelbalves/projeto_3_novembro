@@ -39,6 +39,7 @@ body {
     border-radius: 1px;
     padding:4px 0;
     margin-right: 50px;
+    cursor: pointer;
 }
 
 /*PRIMEIRA PARTE*/
@@ -110,11 +111,18 @@ body {
     font-size: .55em;
     margin-top: 20px;
     box-shadow: .5px .5px .5px black;
+    cursor: pointer;
 }
 
 #segunda-frase {
     margin-top: 8px;
     font-size: 11px;
+}
+
+#segunda-frase > a {
+    text-decoration: none;
+    color: white;
+    
 }
 
 /*TERCEIRA PARTE*/
@@ -145,7 +153,8 @@ body {
     align-items: center;
     margin-top: 30px;
     margin-left: 300px;
-    margin-right: 300px
+    margin-right: 300px;
+    
 }
 
 .item {
@@ -160,6 +169,13 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center;
+    
+}
+
+.item a {
+    text-decoration: none;
+    color:#789FB2; ;
+
 }
 
 #ultimo {
@@ -176,6 +192,11 @@ body {
     color: white;
     display: flex;
     
+}
+
+.four a {
+    text-decoration: none;
+    color: white;
 }
 
 .four #primeiro-retangulo {
